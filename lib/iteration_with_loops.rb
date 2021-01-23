@@ -9,7 +9,6 @@ def join_nested_strings(src)
     j = 0
     while j < src[i].count do
       if src[i][j].class == String
-        #binding.pry
         string_array << src[i][j]
       end
       j += 1
