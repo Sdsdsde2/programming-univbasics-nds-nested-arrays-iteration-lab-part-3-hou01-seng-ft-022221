@@ -8,7 +8,7 @@ def join_nested_strings(src)
   while i < src.count do
     j = 0
     while j < src[i].count do
-      if src[i][j].object_id
+      if src[i][j].object_id = String
         binding.pry
         string_array << src[i][j]
       end
